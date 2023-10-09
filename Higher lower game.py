@@ -369,8 +369,8 @@ while continue_game:
     is_correct = check_answer(guess, followers_1, followers_2) # The user's guess, and the two follower values are inputed into the check_answer function
     if is_correct == True:
         tally += 1
-        print(f"You're correct! Current score: {tally}.")
+        print(f"You're correct! Your current score: {tally}.")
     else:
         continue_game = False
-        print(f"Sorry, that's incorrect. Final score: {tally}.")
+        print(f"Sorry, that's incorrect. Your final score: {tally}.")
 
